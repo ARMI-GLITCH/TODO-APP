@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cfa6615fb1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
   <title>Todo-App</title>
 </head>
 <body>
@@ -17,9 +18,11 @@
       <p class="description">A <strong>JavaScript</strong> to-do app is a simple application that allows users to create, manage, and mark tasks as completed.</p>
     </section>
     </div>
-  <div class="task-area">
-    <i class="fa-solid fa-circle-arrow-right"></i> <button type="button" class="button">NEW TASK</button> <i class="fa-solid fa-circle-arrow-left"></i>
-  </div>
+    <button type="button" id="btn-new-task">NEW TASK</button>
+    <p id="text" class="text"></p>
+    <div id="parent-task">
+    </div>
   </center>
 </body>
 </html>
+
